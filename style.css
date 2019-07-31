@@ -1,0 +1,37 @@
+/*
+Theme Name: Ambiance-WSP24
+Template: ambiance
+
+Не обязательные параметры:
+Theme URI: http://wsp24.ru/ambiance
+Description: Дополнения для темы Ambiance от студии Web Style Production 24
+Author: Web Style Production 24
+Author URI: http://wsp24.ru/
+Version: 1.0
+*/
+
+/* Свои дополнительные стили */
+.select {
+	color: #000;
+}
+
+#order_denomination_field, #datepicker_field, #timepicker_field {
+	display: none;
+}
+body .woocommerce-cart-tab-container {
+	display: block;
+}
+
+@media only screen and (min-width: 1025px){
+	.strokes ul li a section h2 {
+		font-size: 2.5rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	.woocommerce table.shop_table_responsive tr td::before {
+    text-align: left;
+    width: 100%;
+	}
+}
+
+/*Woocommerce*/
